@@ -1,5 +1,5 @@
 {
-	"maintenance": false,
+	"maintenance": true,
 	"maintenance_url": "https://pages.ustockplus.com/onboard/assets/htm/notice.html",
 	"web_maintenance_notice": false,
 	"maintenance_notice_time": "2022년 1월 2일(일) 23:00 ~ 00:00(1시간)",
