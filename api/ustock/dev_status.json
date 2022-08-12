@@ -1,4 +1,8 @@
 {
 	"maintenance": false,
-	"maintenance_url": "https://pages.ustockplus.com/assets/service_check_info_ustock.html"
+	"maintenance_url": "https://pages.ustockplus.com/assets/service_check_info_ustock.html",
+	"maintenance_service_url": "https://pages.ustockplus.com/assets/service_check_info_ustock.html",
+	"web_maintenance_notice": true,
+	"maintenance_notice_time": "2022년 8월 13일(토) 00:00 ~ 04:00(4시간)",
+	"maintenance_notice_desc": "서비스 점검"
 }
