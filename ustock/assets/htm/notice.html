@@ -10,76 +10,77 @@
 		<link rel="icon" href="./favicon.png"/>
 		<style type="text/css">
 			@charset "utf-8";
-			@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap');
-			@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
-			html,body { height:100%; }
-			body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,form,fieldset,p,blockquote,iframe { margin:0;padding:0; }
-			body { background:#ffffff;color:#222222;font:normal 14px Roboto,Noto Sans KR,HelveticaNeue,AppleSDGothicNeo,Malgun Gothic,sans-serif; }
+			@import url('../fonts/pretendard.css');
+			html,body { width: 100%; height: 100vh; }
+			body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,form,fieldset,p,blockquote,iframe { margin:0;padding:0;box-sizing:border-box; }
+			body { background:#ffffff;color:#222222;font:normal 14px 'Pretendard', 'Noto Sans KR', 'Nanum Gothic', '맑은고딕', sans-serif; }
 			body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,button,p,blockquote,th,td { margin:0;padding:0;-webkit-text-size-adjust:none; }
 			img { vertical-align:top; } img,fieldset { border:0; } ul,ol,li { list-style:none; } hr { display:none; } legend,caption { display:none;clear:both; }
 			a,a:visited { color:#222222; } a:link { text-decoration:none; } a:hover,a:active { color:#222222;text-decoration:none; }
 			h1,h2,h3,h4,h5,h6 { font-size:100%;font-weight:normal; } em,i,address,cite { font-style:normal;font-weight:normal; }
 
-			.root { height:100%; }
-			.noticeB { position:relative;width:100%;height:100%; }
-			.noticeB .inner { padding:30px;box-sizing:border-box; }
-			.noticeB .inner span.iconB { display:block;margin-left:-50px;width:500px;height:150px;margin-bottom:34px;background:url('../images/logo_web_link_landscape.svg') 0 0 no-repeat;background-size:500px;overflow:hidden;text-indent:-999em; }
-			.noticeB .inner h3 { display:block;padding-bottom:8px;line-height:42px;font-size:28px; }
-			.noticeB .inner p { display:block;margin-top:8px;line-height:27px;color:#666666;font-size:17px;word-break:break-all; }
-			.noticeB .inner p br { display:none; }
-			.noticeB .inner ul { width:100%;margin:24px 0;padding:24px 0;border-top:1px solid #e1e3e9;border-bottom:1px solid #e1e3e9;overflow:hidden; }
-			.noticeB .inner ul li { width:100%;margin-top:21px;overflow:hidden; }
-			.noticeB .inner ul li:first-child { margin-top:0; }
-			.noticeB .inner ul li p { margin:0;color:#222222;font-weight:500; }
-			.noticeB .inner ul li p.tit { margin-bottom:4px;color:#666666; }
-			.noticeB .inner .cs { width:100%;margin:40px 0 14px 0;overflow:hidden; }
-			.noticeB .inner .cs p { margin:0;color:#222222;font-size:16px;font-weight:500; }
-			.noticeB .inner .cs p a { color:#0977f3; }
-			@media all and (min-width:700px) {
-				.noticeB .inner { position:absolute;top:50%;transform:translateY(-50%);left:50%;width:700px;margin-left:-350px; }
-				.noticeB .inner span.iconB { margin-left:-50px;width:500px;height:150px;margin-bottom:52px;background:url('../images/logo_web_link_landscape.svg') 0 0 no-repeat;background-size:500px; }
-				.noticeB .inner h3 { padding-bottom:4px;line-height:54px;font-size:34px; }
-				.noticeB .inner p { margin-top:7px;line-height:30px;font-size:18px; }
-				.noticeB .inner p br { display:block; }
-				.noticeB .inner ul li { margin-top:0; }
-				.noticeB .inner ul li p { float:left; }
-				.noticeB .inner ul li p.tit { width:80px;margin-bottom:0; }
-				.noticeB .inner .cs { margin:47px 0 14px 0; }
-				.noticeB .inner .cs p { display:inline-block;margin:0 0 0 20px; }
-				.noticeB .inner .cs p:first-child { margin-left:0; }
+			.root { width: 100%; height: 100%; display: flex; justify-content: center; align-items: center; line-height: 1.5; letter-spacing: -0.02em; }
+			.content > img { width: 344px; height: 48px; }
+			.title { font-size: 36px; font-weight: 500; color: #000000; margin: 40px 0; word-break: keep-all; }
+			.description { color: #696B6E; font-weight: 400; font-size: 16px;}
+			.sub-description { color: #A2A5AB; font-weight: 400; font-size: 16px; margin-bottom: 40px; }
+			.detail { padding: 24px 0; margin: 24px 0; border-top: 1px solid rgba(0, 0, 0, 0.05); border-bottom: 1px solid rgba(0, 0, 0, 0.05); }
+			.row { display: flex; margin-bottom: 8px; }
+			.row:last-of-type { margin-bottom: 0; }
+			.label { width: 80px; color: #696B6E; font-size: 16px; flex-shrink: 0; }
+			.value { flex: 1; color: #28292C; font-size: 16px; word-break: break-word; }
+			.information { background-color: #F8F9FA; padding: 24px; }
+			@media all and (max-width:700px) {
+				.root { display: block; }
+				.content { max-width: 100%; padding: 34px 32px 42px 32px; }
+				.content > img { width: 115px; height: 16px; }
+				.title { margin: 24px 0; font-size: 26px; }
+				.detail { padding: 16px 0; margin: 16px 0; }
+				.sub-description { margin-bottom: 24px; }
+			}
+			@media all and (max-width:290px) {
+				.content { padding: 34px 25px 42px 25px; }
 			}
 		</style>
 	</head>
 	<body>
 		<div class="root">
-
-			<div class="noticeB">
-				<div class="inner">
-					<span class="iconB">-</span>
-					<h3>증권플러스 비상장 서비스 점검 중입니다.</h3>
-					<p>안녕하세요, 증권플러스 비상장입니다.<br> 현재 서비스 안정화를 위한 점검이 진행되고 있습니다.</p>
+			<div class="content">
+				<img src="../images/logo.png" srcset="../images/logo@2x.png 2x,../images/logo@4x.png 3x" alt="증권플러스 비상장 로고" />
+				<h1 class="title">증권플러스 비상장 서비스 점검 중입니다.</h1>
+				<p class="description">
+					안녕하세요. 증권플러스입니다.
+					<br />
+					보다 안정적인 서비스를 위해 아래와 같은 점검이 있을 예정입니다.
+				</p>
+				<ul class="detail">
+					<li class="row">
+						<div class="label">점검시간</div>
+						<div class="value">2021년 1월 23일 (토) 09:00~12:00 (3시간)</div>
+					</li>
+					<li class="row">
+						<div class="label">점검내용</div>
+						<div class="value">웹 서비스 점검</div>
+					</li>
+				</ul>
+				<p class="sub-description">
+					점검 완료 시간은 예정보다 빠르거나 늦어질 수 있습니다.
+					<br />
+					해당 기간동안 서비스가 중단될 예정이오니 양해 부탁드립니다.
+				</p>
+				<div class="information">
 					<ul>
-						<li>
-							<p class="tit">점검시간</p>
-							<p>2022년 01월 02일(일) 23:00 ~ 00:00(약 1시간)</p>
+						<li class="row">
+							<div class="label">이메일 문의</div>
+							<div class="value">cs@dunamu.com</div>
 						</li>
-						<li>
-							<p class="tit">점검내용</p>
-							<p>서비스 점검</p>
+						<li class="row">
+							<div class="label">고객센터</div>
+							<div class="value">1588-9449</div>
 						</li>
 					</ul>
-					<p>점검 완료 시간은 예정보다 빠르거나 늦어질 수 있습니다.</p>
-					<p>해당 기간동안 잠시 서비스가 중단될 예정이오니 양해 부탁드립니다.<br> 더 나은 서비스를 위해 항상 노력하겠습니다. 감사합니다.</p>
-					<div class="cs">
-						<p>이메일 문의 : <a href="#">cs@dunamu.com</a></p>
-						<p>고객센터 전화문의 : 1566-3367</p>
-					</div>
 				</div>
 			</div>
-
 		</div>
-<!--		<script>-->
-<!--			window.location.href = 'https://ustockplus.com/';-->
-<!--		</script>-->
 	</body>
 </html>
