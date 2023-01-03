@@ -2,7 +2,7 @@
 	"maintenance": false,
 	"maintenance_url": "https://pages.ustockplus.com/assets/service_check_info_ustock.html",
 	"web_maintenance": false,
-	"web_maintenance_hosts": ["https://www.ustockplus.com", "https://ustockplus.com"],
+	"web_maintenance_exclude_hosts": ["https://ustock-landing.dunamu-stock-prod.com"],
 	"web_maintenance_url": "https://pages.ustockplus.com/ustock/assets/htm/notice.html",
 	"web_maintenance_notice": true,
 	"web_maintenance_notice_time": "2023년 1월 3일(화) 19:30 ~ 20:30(1시간)",
