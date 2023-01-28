@@ -1,5 +1,5 @@
 {
-	"maintenance": false,
+	"maintenance": true,
 	"maintenance_url": "https://pages.ustockplus.com/onboard/assets/htm/notice.html",
 	"web_maintenance_notice": true,
 	"maintenance_notice_time": "2023년 1월 28일(토) 10:00 ~ 12:00(2시간)",
