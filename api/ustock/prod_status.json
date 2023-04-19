@@ -4,7 +4,7 @@
 	"web_maintenance": false,
 	"web_maintenance_exclude_hosts": ["https://ustock-web.dunamu-stock-prod.com"],
 	"web_maintenance_url": "https://pages.ustockplus.com/ustock/assets/htm/notice.html",
-	"web_maintenance_notice": true,
+	"web_maintenance_notice": false,
 	"web_maintenance_notice_time": "2023.4.20 목요일 오전 00시 ~ 오전 02시 (약 2시간 예정)",
 	"web_maintenance_notice_desc": "서비스 점검"
 }
