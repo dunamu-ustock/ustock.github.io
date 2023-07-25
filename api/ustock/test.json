@@ -1,4 +1,4 @@
 {
-	"maintenance": true,
-	"maintenance_url": "https://pages.ustockplus.com/assets/service_check_info_ustock.html"
+	"maintenance": false,
+	"maintenance_url": "https://pages.ustockplus.com/assets/notice_ustock_tradeapp.html"
 }
