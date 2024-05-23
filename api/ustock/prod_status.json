@@ -5,6 +5,6 @@
 	"web_maintenance_exclude_hosts": [],
 	"web_maintenance_url": "https://pages.ustockplus.com/ustock/assets/htm/notice.html",
 	"web_maintenance_notice": false,
-	"web_maintenance_notice_time": "2024.02.22 목요일 오후 7시 ~ 오후 10시 (약 3시간 예정)",
+	"web_maintenance_notice_time": "2024.06.01 토요일 오전 10시 ~ 오후 12시 30분 (약 2시간 반 예정)",
 	"web_maintenance_notice_desc": "서비스 점검"
 }
