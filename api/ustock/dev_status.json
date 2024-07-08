@@ -1,10 +1,10 @@
 {
-	"maintenance": false,
+	"maintenance": true,
 	"maintenance_url": "https://pages.ustockplus.com/assets/service_check_info_ustock.html",
 	"web_maintenance": false,
 	"web_maintenance_exclude_hosts": [],
 	"web_maintenance_url": "https://pages.ustockplus.com/ustock/assets/htm/notice.html",
 	"web_maintenance_notice": false,
-	"web_maintenance_notice_time": "제드가 원할때까지 점검",
+	"web_maintenance_notice_time": "라니가 원할때까지 점검",
 	"web_maintenance_notice_desc": "서비스 점검"
 }
