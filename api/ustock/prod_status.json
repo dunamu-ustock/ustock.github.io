@@ -1,7 +1,7 @@
 {
-	"maintenance": true,
+	"maintenance": false,
 	"maintenance_url": "https://pages.ustockplus.com/assets/service_check_info_ustock.html",
-	"web_maintenance": true,
+	"web_maintenance": false,
 	"web_maintenance_exclude_hosts": [],
 	"web_maintenance_url": "https://pages.ustockplus.com/ustock/assets/htm/notice.html",
 	"web_maintenance_notice": false,
