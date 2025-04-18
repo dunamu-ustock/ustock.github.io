@@ -1,10 +1,10 @@
 {
-	"maintenance": false,
+	"maintenance": true,
 	"maintenance_url": "https://pages.ustockplus.com/assets/service_check_info_ustock.html",
-	"web_maintenance": false,
+	"web_maintenance": true,
 	"web_maintenance_exclude_hosts": [],
 	"web_maintenance_url": "https://pages.ustockplus.com/ustock/assets/htm/notice.html",
 	"web_maintenance_notice": false,
-	"web_maintenance_notice_time": "2025.04.02 수요일 오후 7시 ~ 오후 8시 (약 1시간 예정)",
+	"web_maintenance_notice_time": "2025.04.19 토요일 오전 9시 ~ 오전 12시 (약 3시간 예정)",
 	"web_maintenance_notice_desc": "서비스 점검"
 }
