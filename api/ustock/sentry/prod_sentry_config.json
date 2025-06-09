@@ -1,5 +1,5 @@
 {
 	"sampleRate": 1.0,
 	"tracesSampleRate": 0.1,
-  "enablePersistingTracesWhenCrashing": false
+  	"enablePersistingTracesWhenCrashing": false
 }
